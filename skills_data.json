@@ -1,0 +1,31 @@
+{
+  "skills": [
+    {
+      "_id": "1",
+      "title": "Basic Origami Techniques",
+      "category": "Arts & Crafts",
+      "description": "Learn to fold paper cranes and flowers. Perfect for beginners.",
+      "teacher": "Maya Tanaka",
+      "rating": 4.8,
+      "duration": 45
+    },
+    {
+      "_id": "2",
+      "title": "Guitar Chord Fundamentals",
+      "category": "Music",
+      "description": "Master essential guitar chords and strumming patterns.",
+      "teacher": "Jake Rodriguez",
+      "rating": 4.9,
+      "duration": 60
+    },
+    {
+      "_id": "3",
+      "title": "Python Programming",
+      "category": "Technology",
+      "description": "Learn variables, loops, functions in Python.",
+      "teacher": "Raj Patel",
+      "rating": 4.8,
+      "duration": 120
+    }
+  ]
+}

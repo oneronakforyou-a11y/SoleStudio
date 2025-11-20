@@ -1,0 +1,45 @@
+<%- include('partials/header') %>
+
+<main class="add-skill">
+    <div class="container">
+        <h1>Add New Skill</h1>
+        <p class="subtitle">MongoDB CREATE Operation</p>
+        
+        <form onsubmit="submitSkill(event)" class="skill-form">
+            <div class="form-group">
+                <label for="title">Skill Title *</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="category">Category *</label>
+                <select id="category" name="category" required>
+                    <option value="">Select Category</option>
+                    <option value="Technology">Technology</option>
+                    <option value="Arts & Crafts">Arts & Crafts</option>
+                    <option value="Music">Music</option>
+                    <option value="Languages">Languages</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="description">Description *</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="teacher">Teacher Name *</label>
+                <input type="text" id="teacher" name="teacher" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="duration">Duration (minutes) *</label>
+                <input type="number" id="duration" name="duration" min="15" required>
+            </div>
+            
+            <button type="submit" class="btn-primary">Add Skill</button>
+        </form>
+    </div>
+</main>
+
+<%- include('partials/footer') %>

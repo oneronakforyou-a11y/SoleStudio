@@ -1,0 +1,18 @@
+{
+  "testimonials": [
+    {
+      "name": "Sarah Chen",
+      "skillLearned": "Watercolor Painting",
+      "skillTaught": "Python Programming",
+      "rating": 5,
+      "review": "Amazing experience! Elena was so patient teaching me watercolor."
+    },
+    {
+      "name": "Marcus Rodriguez",
+      "skillLearned": "Guitar Basics",
+      "skillTaught": "Spanish",
+      "rating": 5,
+      "review": "Great platform for skill exchange. Highly recommend!"
+    }
+  ]
+}
